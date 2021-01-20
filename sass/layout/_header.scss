@@ -1,0 +1,17 @@
+.header {
+    height: 100vh;
+    background-image:linear-gradient(
+        rgba($color-black, 0.7),
+        rgba($color-black, 0.7)),
+        url(../img/header1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__box {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        
+    }
+}
