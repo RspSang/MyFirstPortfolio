@@ -36,7 +36,7 @@ body {
 
 .section__about {
   background-color: #eee;
-  padding: 10rem 0; }
+  padding: 20rem; }
 
 .about__box-photo {
   border-radius: 50%;
@@ -53,6 +53,20 @@ body {
     font-size: 7rem; }
   .about__box-dec p {
     font-size: 2rem; }
+
+.section__skill {
+  background-color: #00C7F1;
+  transform: skewY(-7deg);
+  height: 70rem;
+  margin-top: -8rem; }
+  .section__skill > * {
+    transform: skewY(7deg); }
+
+.skill-box {
+  background-color: #fff;
+  display: inline-block;
+  height: 40rem;
+  margin-top: 18rem; }
 
 .row {
   max-width: 114rem;
