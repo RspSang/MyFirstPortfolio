@@ -1,0 +1,30 @@
+.section__about {
+    background-color: #eee;
+    padding: 10rem 0;
+}
+
+.about__box{
+
+    &-photo{
+        border-radius: 50%;
+        height: 30rem;
+        width: 25rem;
+        float: left;
+        margin-top: 3rem;
+    }
+
+    &-dec{
+        display: inline;
+        float: right;
+        width: 65%;
+        
+        h1{
+            font-size: 7rem;
+        }
+
+        p{
+            font-size: 2rem;
+        }
+    }
+    
+}
